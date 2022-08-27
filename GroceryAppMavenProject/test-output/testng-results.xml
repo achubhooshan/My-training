@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4788" started-at="2022-08-16T08:05:13 IST" finished-at="2022-08-16T08:05:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4788" started-at="2022-08-16T08:05:13 IST" finished-at="2022-08-16T08:05:18 IST">
+      <class name="testCases.loginTest">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testCases.loginTest@8b87145]" name="beforemethod" is-config="true" duration-ms="3699" started-at="2022-08-16T08:05:13 IST" finished-at="2022-08-16T08:05:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="testcase01verifyLoginFunctionality()[pri:1, instance:testCases.loginTest@8b87145]" name="testcase01verifyLoginFunctionality" duration-ms="871" started-at="2022-08-16T08:05:16 IST" finished-at="2022-08-16T08:05:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase01verifyLoginFunctionality -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testCases.loginTest@8b87145]" name="aftermethod" is-config="true" duration-ms="188" started-at="2022-08-16T08:05:17 IST" finished-at="2022-08-16T08:05:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase01verifyLoginFunctionality status=SUCCESS method=loginTest.testcase01verifyLoginFunctionality()[pri:1, instance:testCases.loginTest@8b87145] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- testCases.loginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
